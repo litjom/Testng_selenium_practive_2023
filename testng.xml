@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng Session test automaiton" parallel="true" thread-count="2">
+    <test name="Different testng feature">
+
+        <parameter name="email" value="Littin.jo@gmail.com"></parameter>
+        <parameter name="pass" value="Verizon12"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+    <classes>
+        <class name="GoogleTest"></class>
+        <class name="TestngFeatures"></class>
+        <class name="Parameter_TestPackage"></class>
+        </classes>
+</test>
+</suite>
